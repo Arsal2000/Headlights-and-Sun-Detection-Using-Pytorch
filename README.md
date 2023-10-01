@@ -8,7 +8,7 @@ pip install - r requirements.txt
 ## Usage
 To test/detect using the trained model, go to the command prompt and write this command
 ```bash
-yolo task=detect mode=predict model=runs\detect\final-train\weights\best.pt conf=0.55 source=['IMAGE_PATH'] save=True
+python main.py
 ```
 
 To train the model, 
