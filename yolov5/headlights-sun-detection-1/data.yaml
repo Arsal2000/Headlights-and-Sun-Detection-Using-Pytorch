@@ -1,0 +1,13 @@
+names:
+- headlights
+- sun
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: headlights-sun-detection
+  url: https://universe.roboflow.com/muhammad-arsal-jjd7w/headlights-sun-detection/dataset/1
+  version: 1
+  workspace: muhammad-arsal-jjd7w
+test: ../test/images
+train: headlights-sun-detection-1/train/images
+val: headlights-sun-detection-1/valid/images
